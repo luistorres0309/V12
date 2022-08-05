@@ -815,7 +815,7 @@ def convert2calendar(update,bot:ObigramClient):
     pass
 
 def main():
-    bot_token = os.environ.get('bot_token')
+    bot_token = os.environ.get('5406362553:AAGyCVvXrMdZITHf2O-ILgIr_2P0V0YKZI8')
     print('init bot.')
     #set in debug
     #bot_token = '5406362553:AAGyCVvXrMdZITHf2O-ILgIr_2P0V0YKZI8'
