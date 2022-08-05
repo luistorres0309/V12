@@ -262,7 +262,7 @@ def onmessage(update,bot:ObigramClient):
         else:
             mensaje = "🚷 No tienes Acceso 🚷"
             reply_markup = inlineKeyboardMarkup(
-                r1=[inlineKeyboardButton('⚙Contactar Soporte⚙',url='https://t.me/obidevel')]
+                r1=[inlineKeyboardButton('⚙Contactar Soporte⚙',url='https://t.me/JAGB2021')]
             )
             bot.sendMessage(update.message.chat.id,mensaje,reply_markup=reply_markup)
             return
@@ -601,7 +601,7 @@ def onmessage(update,bot:ObigramClient):
         if '/start' in msgText:
             reply_markup = inlineKeyboardMarkup(
                 r1=[inlineKeyboardButton('📊 Github Dev 📊', url='https://github.com/ObisoftDev'),
-                    inlineKeyboardButton('⚙ Soporte ⚙', url='https://t.me/obidevel')]
+                    inlineKeyboardButton('⚙ Soporte ⚙', url='https://t.me/JAGB2021')]
             )
             bot.editMessageText(message,infos.dashboard(),parse_mode='html',reply_markup=reply_markup)
         elif '/token' in msgText:
@@ -815,7 +815,7 @@ def convert2calendar(update,bot:ObigramClient):
     pass
 
 def main():
-    bot_token = os.environ.get('5406362553:AAGyCVvXrMdZITHf2O-ILgIr_2P0V0YKZI8')
+    bot_token = os.environ.get('bot_token')
     print('init bot.')
     #set in debug
     #bot_token = '5406362553:AAGyCVvXrMdZITHf2O-ILgIr_2P0V0YKZI8'
