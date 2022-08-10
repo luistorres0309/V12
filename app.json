@@ -4,9 +4,9 @@
   "repository": "https://github.com/ObisoftDev/tguploaderpro", 
   "env": {
     "bot_token": {
-      "description": "El token del bot"
+      "description": "5243660833:AAEpPZ1wXUVyGYB9vRBlmsF4Z3eQq5Y_cx8"
     },"tl_admin_user": {
-      "description": "usuarion administrador del bote de telegram","value":"*"
+      "description": "ALejandrito2","value":"*"
     }
   }
 }
